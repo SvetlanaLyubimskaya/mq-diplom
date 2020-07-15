@@ -1,0 +1,625 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Regular.woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Bold.woff");
+  font-style: bold;
+  font-weight: 700;
+}
+* {
+  margin: 0;
+  padding: 0;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  font-family: "Open Sans";
+}
+.header {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #818181;
+}
+.header::after {
+  content: "";
+  background-color: #000000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.9;
+  }
+.container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+.header-logo {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.logo-icon {
+  fill: #fff;
+}
+h2 {
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase; 
+}
+.button-source {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  border-radius: 50px;
+  background-color: #5e42b0; 
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;  
+}
+.btn-text {
+  display: flex;
+  flex-direction: column;
+}
+.btn-source {
+  font-weight: 700;
+}
+.source-icon {
+  fill: #fff;
+}
+.button-google-play {
+  fill: #fff;
+}
+
+/*вторая секция футболист*/
+.athlets, .players {
+  position: relative;
+}
+.athlets-footballer {
+  position: absolute;
+}
+h3 {
+  color: #e7e7e7;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.athlets-heading, .players-heading {
+  color: #c1c1c1;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.number {
+  color: #000000;
+  font-weight: 700;
+  position: relative;
+}
+.number::after {
+  content:"";
+  position: absolute;
+  width: 19px;
+  height: 5px;
+  left: 0;
+  bottom: 0;
+  border-radius: 2px;
+  background-color: #5e42b0;
+}
+.number-blue {
+  color: #0a0e34; 
+}
+.number-blue::after {
+  background-color: #efefef;
+}
+.number-purple {
+  color: #9173e6; 
+}
+.number-purple::after {
+  background-color: #ffffff;
+}
+p {
+  color: #000000;
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+.white-text {
+  color: #fff;
+}
+.athlets-collaboration {
+  background-color: #f6f4fa;
+}
+.athlets-growth {
+  background-color: #5e42b0;
+}
+
+/*третья секция баскетболист*/
+.players-basketballer {
+  position: absolute;
+  z-index: 1;
+}
+.players-collaboration {
+  background-color: #f5f6f7;
+}
+.players-growth {
+  background-color: #0a0e34;
+}
+
+/*подвал*/
+.footer {
+  background-color: #818181;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+.footer::after {
+  content: "";
+  background-color: #000000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.9;
+}
+.footer-download-bottom {
+  background-color: #6c4dc6;
+  border-radius: 20px;
+}
+.footer-bottom-logo {
+  fill: #fff;
+}
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+.footer-text-download {
+  font-weight: 700;
+  color: #fff;
+  line-height: 1;
+}
+.footer-text-little {
+  font-weight: normal;
+  color: #a496ca;
+}
+.footer-logo {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.footer-logo-icon {
+  fill: #fff;
+}
+
+
+@media (min-width: 961px) {
+  html {
+    font-size: 16px;
+  }
+  .header {
+    background-image: url("../images/football_1920.jpg");
+  }
+  .container {
+    box-sizing: border-box;
+    max-width: 1530px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+  }
+  .logo-icon {
+    margin-top: 40px;
+    width: 191px;
+  }
+  .title {
+    margin-top: 180px;
+  }
+  h2 {
+   font-size: 90px;
+  }
+  .title-position {
+    text-align: right;
+  }
+  .btn-group {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 673px;
+  }
+  .header-btn-group {
+    padding-bottom: 110px;
+    margin-top: 220px;
+  }
+  .source-icon { 
+    padding-left: 40px;
+    padding-top: 12px;
+    width: 42px;
+    height: 48px;
+  }
+  .button-google-play {
+    width: 40px;
+    height: 50px;
+  }
+  .button-source {
+    width: 310px;
+    height: 78px;
+  }
+  .btn-text {
+    padding-left: 25px;
+    padding-top: 20px;
+    font-size: 14px;
+  }
+  /*вторая секция футболист*/
+  .athlets, .players {
+    padding-top: 115px;
+  }
+  .athlets-footballer {
+    top: 26px; 
+    left: 10%;
+  }
+  h3 {
+    font-size: 80px;
+  }
+  .title-right {
+    padding-left: 43%;
+  }
+  .athlets-heading, .players-heading {
+    font-size: 36px;
+  }
+  .number {
+    font-size: 18px;
+    line-height: 34px;
+    padding-bottom: 9px;
+  }
+  p {
+    font-size: 20px;
+    padding-top: 30px;
+  }
+  .athlets-connection, .athlets-collaboration, .athlets-growth {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 43%;
+    padding-right: 10%;
+  }
+
+  /*третья секция баскетболист*/
+  .players-basketballer {
+    right: 125px;
+    top: 28px;
+  }
+  .title-left {
+    padding-left: 10%;
+  }
+  .players-connection, .players-collaboration, .players-growth {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 10%;
+    padding-right: 43%;
+  }
+
+  /**/
+  .be-active, .find-contact, .work-it {
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+  }
+  .be-active-image, .find-contact-image, .work-it-image {
+    width: 50%;
+  }
+  .find-contact-image {
+    order: 1;
+  }
+  .be-active-img, .find-contact-img, .work-it-img {
+    width: 100%;
+    display: block;
+  }
+  .be-active-content, .work-it-content {
+    width: 50%;
+    padding-left: 7%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: center;
+  }
+  .be-active-text, .work-it-text {
+    padding-top: 1.45em;
+    padding-right: 10%;
+  }
+  .popup {
+    position: absolute;
+    width: 9%;
+    height: 21%;
+    background-color: #5e42b0;
+    left: calc(50% - 9%/2);
+    top: calc(50% - 21%);
+  }
+  .numbering {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 9px;
+    padding-top: 15%;
+    position: relative;
+  }
+  .numbering::after {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 5px;
+    bottom: 0;
+    left: calc(50% - 24px/2);
+    background-color: #8f7bc8;
+    border-radius: 2px;
+}
+  .find-contact-content {
+    width: 50%;
+    padding-left: 7%;
+    padding-right: 7%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: center;
+  }
+
+  /*подвал*/
+  .footer {
+    background-image: url('../images/game_1920.jpg');
+  }
+  .footer-btn-group {
+    margin-top: 150px;
+  }
+  .footer-logo-download {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding-top: 229px;
+    width: 866px;
+  }
+  .footer-download-bottom {
+    width: 130px;
+    height: 137px;
+  }
+  .footer-bottom-logo {
+    width: 106px;
+    padding-top: 20px;
+    padding-left: 12px;
+  }
+  .footer-text {
+    margin-left: 37px;
+  }
+  .footer-text-download {
+    font-size: 5rem;
+  }
+  .footer-text-little {
+    font-size: 1.8rem;
+  }
+  .footer-logo {
+    padding-bottom: 3.25rem;
+    margin-top: 16.3rem;
+  }
+  .footer-logo-icon {
+    width: 191px;
+  }
+}
+
+
+
+@media (min-width: 641px) and (max-width: 960px) {
+  html {
+    font-size: 10px;
+  }
+  .header {
+    background-image: url("../images/football_1280.jpg");
+  }
+  .container {
+    box-sizing: border-box;
+    max-width: 960px;
+    padding-right: 8px;
+    padding-left: 8px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+  }
+  .logo-icon {
+    margin-top: 40px;
+    width: 205px;
+  }
+  .title {
+    margin-top: 180px;
+    padding-left: 80px;
+  }
+  h2 {
+    font-size: 64px;
+  }
+  .title-position {
+    padding-left: 185px;
+  }
+  .btn-group {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .header-btn-group {
+    padding-bottom: 90px;
+    margin-top: 310px;
+  }
+  .source-icon {
+    padding-left: 40px;
+    padding-top: 12px;
+    width: 42px;
+    height: 48px;
+  }
+  .button-google-play {
+    width: 40px;
+    height: 50px;
+  }
+  .button-source {
+    width: 310px;
+    height: 78px;
+  }
+  .btn-text {
+    padding-left: 25px;
+    padding-top: 20px;
+    font-size: 14px;
+  }
+  .athlets, .players {
+    padding-top: 80px;
+  }
+  h3 {
+    font-size: 8rem;
+  }
+  .athlets-image {
+    width: 38%;
+  }
+  .athlets-footballer {
+    left: -15%;
+    top: 70px;
+  }
+  .title-right {
+    padding-left: 43%;
+  }
+  .athlets-heading, .players-heading {
+    font-size: 36px;
+  }
+  .number {
+    font-size: 18px;
+    line-height: 34px;
+    padding-bottom: 9px;
+  }
+  p {
+    font-size: 16px;
+    padding-top: 25px;
+  }
+  .athlets-connection, .athlets-collaboration, .athlets-growth {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 43%;
+    padding-right: 10%;
+  }
+
+/*третья секция баскетболист*/
+  .players-basketballer {
+    right: 0;
+    top: 28px;
+  }
+  .title-left {
+    padding-left: 4%;
+  }
+  .players-connection, .players-collaboration, .players-growth {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 4%;
+    padding-right: 43%;
+  }
+
+  /**/
+  .be-active-img, .find-contact-img, .work-it-img {
+    width: 100%;
+  }
+  .be-active-content, .find-contact-content, .work-it-content {
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 85px;
+    
+  }
+  .be-active, .find-contact, .work-it {
+    position: relative;
+  }
+  .be-active-text, .find-contact-text, .work-it-text {
+    padding-top: 36px;
+    padding-bottom: 104px;
+    font-size: 24px;
+  }
+  .popup {
+    position: absolute;
+    background-color: #5e42b0;
+    width: 116px;
+    height: 116px;
+    left: 31px;
+    bottom: 340px;
+  }
+  .numbering {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 9px;
+    margin-top: 30px;
+    position: relative;
+  }
+  .numbering::after {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 5px;
+    bottom: 0;
+    left: calc(50% - 24px/2);
+    background-color: #8f7bc8;
+    border-radius: 2px;
+  }
+
+  /*подвал*/
+  .footer {
+    background-image: url('../images/game_1280.jpg');
+  }
+  .footer-logo-download {
+    padding-top: 126px;
+  }
+  .footer-download-bottom {
+    width: 130px;
+    height: 137px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer-bottom-logo {
+    width: 106px;
+    padding-top: 20px;
+    padding-left: 12px;
+  }
+  .footer-text {
+    margin-top: 80px;
+    text-align: center;
+  }
+  .footer-btn-group {
+    margin-top: 150px;
+  }
+  .footer-text-download {
+    font-size: 80px;
+  }
+  .footer-text-little {
+    font-size: 1.8rem;
+  }
+  .footer-logo {
+    padding-bottom: 3.25rem;
+    margin-top: 16.3rem;
+  }
+  .footer-logo-icon {
+    width: 191px;
+  }
+}
+
+/*
+@media (max-width: 640px) {
+  html {
+    font-size: 8px;
+  }
+  .header {
+    background-image: url("../images/football_767.jpg");
+  }
+
+  .footer {
+    background-image: url('../images/game_767.jpg');
+  }
+}
+*/

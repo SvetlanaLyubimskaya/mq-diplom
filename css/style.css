@@ -97,7 +97,6 @@ h3 {
   font-weight: 700;
   font-size: 18px;
   vertical-align: top;
-  line-height: 34px;
   padding-bottom: 9px;
   position: relative;
 }
@@ -343,19 +342,17 @@ p {
   }
   .popup {
     position: absolute;
-    width: 168px;
-    height: 155px;
     background-color: #5e42b0;
-    right: calc(-168px / 2);
-    top: calc(50% - 155px);
+    width: 17.5%;
+    height: 24%;
+    right: calc(-17.5% / 2);
+    top: calc(50% - 24%);
   }
   .popup-left {
-    position: absolute;
-    width: 168px;
-    height: 155px;
-    background-color: #5e42b0;
-    left: calc(-168px / 2);
-    top: calc(50% - 155px);
+    left: calc(-17.5% / 2);
+  }
+  .popup-work-it, .popup-left {
+    height: 21%;
   }
   .numbering {
     color: #fff;
@@ -363,7 +360,7 @@ p {
     line-height: 1.0;
     font-weight: 700;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 30%;
     padding-bottom: 9px;
     position: relative;
   }
@@ -526,7 +523,7 @@ p {
     padding-top: 40px;
     padding-bottom: 40px;
     padding-left: 43%;
-    padding-right: 10%;
+    padding-right: 4%;
   }
   .players-basketballer {
     right: 0;
@@ -567,8 +564,6 @@ p {
     background-color: #5e42b0;
     width: 116px;
     height: 116px;
-    left: 31px;
-    bottom: 340px;
     left: 32px;
     bottom: -35px;
   }
@@ -696,25 +691,31 @@ p {
   .athlets, .players {
     padding-top: 24px;
   }
+  .athlets-title, .players-title{
+    padding-bottom: 245px;
+  }
   .athlets-image {
+   
     width: 100%;
-    order: 1;  
   }
   .athlets-footballer {
-    width: 100%;
+    top: 80px;
+    left: 70px;
   }
   h3 {
     font-size: 50px;
+    line-height: 1.0;
     padding-left: 20px;
   }
   .athlets-connection, .athlets-collaboration, .athlets-growth {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 55px;
+    padding-bottom: 55px;
     padding-left: 20px;
     padding-right: 20px;
   }
   .number {
     font-size: 14px;
+    line-height: 1.0;
     padding-bottom: 3px;
   }
   .number::after {
@@ -722,24 +723,45 @@ p {
     height: 4px;
     border-radius: 1px;
   }
+  .athlets-connection, .players-connection {
+    background-color: #fafafa;
+  }
+  .athlets-collaboration, .players-collaboration {
+    background-color: #f5f4f9;
+  }
+  .athlets-growth {
+    background-color: #5e42b0;
+  }
   .athlets-heading, .players-heading {
     font-size: 23px;
-    line-height: 34px;
+    line-height: 1.0;
   }
   p {
     font-size: 15px;
     padding-top: 25px;
   }
+
+  .players-basketballer {
+    right: 10px;
+    top: 80px;
+  }
+  .players-growth {
+    background-color: #090c35;
+  }
+  .players-connection, .players-collaboration, .players-growth {
+    padding-top: 55px;
+    padding-bottom: 55px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   
-
-
   /**/
   .be-active-image, .find-contact-image, .work-it-image {
     width: 100%;
+    position: relative;
   }
   .be-active-img, .find-contact-img, .work-it-img {
     width: 100%;
-    display: block;
   }
   .be-active-title, .find-contact-title , .work-it-title {
     font-size: 28px;
@@ -755,19 +777,22 @@ p {
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 34px;
-    
   }
-  .popup { /*  отн-но кого позиц-ть. кто родитель?:(  */
+  .popup { 
     position: absolute;
     width: 70px;
     height: 70px;
+    left: 20px;
+    bottom: -12px;
     background-color: #5e42b0;
   }
   .numbering {
     color: #fff;
     font-size: 14px;
     font-weight: 700;
+    line-height: 1.0;
     text-align: center;
+    padding-top: 25px;
     padding-bottom: 5px;
     position: relative;
   }
@@ -790,11 +815,6 @@ p {
   .footer {
     background-image: url('../images/game_767.jpg');
   }
-
-
-
-
-
   .footer-logo-download {
     padding-top: 99px;
   }
@@ -828,9 +848,5 @@ p {
   }
   .footer-logo-icon {
     width: 135px;
-  }
-  
-  
+  } 
 }
-
-
